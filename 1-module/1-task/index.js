@@ -1,3 +1,11 @@
 function factorial(n) {
-  // ваш код...
+  let res = 1;
+  let i = 1;
+  while(i<=n){
+    res*=i;
+    i++;
+  }
+  return res;
 }
+
+
